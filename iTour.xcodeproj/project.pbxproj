@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC2C00AD2AD67B9600D56E7E /* DestinationListingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2C00AC2AD67B9600D56E7E /* DestinationListingView.swift */; };
+		EC2C00AF2AD681E200D56E7E /* Sight.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2C00AE2AD681E200D56E7E /* Sight.swift */; };
 		EC6130002AD62D6C00480411 /* iTourApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC612FFF2AD62D6C00480411 /* iTourApp.swift */; };
 		EC6130022AD62D6C00480411 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6130012AD62D6C00480411 /* ContentView.swift */; };
 		EC6130042AD62D6E00480411 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC6130032AD62D6E00480411 /* Assets.xcassets */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EC2C00AC2AD67B9600D56E7E /* DestinationListingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationListingView.swift; sourceTree = "<group>"; };
+		EC2C00AE2AD681E200D56E7E /* Sight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sight.swift; sourceTree = "<group>"; };
 		EC612FFC2AD62D6C00480411 /* iTour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTour.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC612FFF2AD62D6C00480411 /* iTourApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTourApp.swift; sourceTree = "<group>"; };
 		EC6130012AD62D6C00480411 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -57,6 +61,8 @@
 			children = (
 				EC612FFF2AD62D6C00480411 /* iTourApp.swift */,
 				EC6130012AD62D6C00480411 /* ContentView.swift */,
+				EC2C00AC2AD67B9600D56E7E /* DestinationListingView.swift */,
+				EC2C00AE2AD681E200D56E7E /* Sight.swift */,
 				EC61300F2AD644D300480411 /* EditDestinationView.swift */,
 				EC61300D2AD62DC000480411 /* Destination.swift */,
 				EC6130032AD62D6E00480411 /* Assets.xcassets */,
@@ -146,7 +152,9 @@
 				EC6130022AD62D6C00480411 /* ContentView.swift in Sources */,
 				EC6130002AD62D6C00480411 /* iTourApp.swift in Sources */,
 				EC61300E2AD62DC000480411 /* Destination.swift in Sources */,
+				EC2C00AF2AD681E200D56E7E /* Sight.swift in Sources */,
 				EC6130102AD644D300480411 /* EditDestinationView.swift in Sources */,
+				EC2C00AD2AD67B9600D56E7E /* DestinationListingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
