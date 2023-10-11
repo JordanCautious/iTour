@@ -11,6 +11,8 @@
 		EC6130022AD62D6C00480411 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6130012AD62D6C00480411 /* ContentView.swift */; };
 		EC6130042AD62D6E00480411 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC6130032AD62D6E00480411 /* Assets.xcassets */; };
 		EC6130072AD62D6E00480411 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC6130062AD62D6E00480411 /* Preview Assets.xcassets */; };
+		EC61300E2AD62DC000480411 /* Destination.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC61300D2AD62DC000480411 /* Destination.swift */; };
+		EC6130102AD644D300480411 /* EditDestinationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC61300F2AD644D300480411 /* EditDestinationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		EC6130012AD62D6C00480411 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EC6130032AD62D6E00480411 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC6130062AD62D6E00480411 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EC61300D2AD62DC000480411 /* Destination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Destination.swift; sourceTree = "<group>"; };
+		EC61300F2AD644D300480411 /* EditDestinationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditDestinationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				EC612FFF2AD62D6C00480411 /* iTourApp.swift */,
 				EC6130012AD62D6C00480411 /* ContentView.swift */,
+				EC61300F2AD644D300480411 /* EditDestinationView.swift */,
+				EC61300D2AD62DC000480411 /* Destination.swift */,
 				EC6130032AD62D6E00480411 /* Assets.xcassets */,
 				EC6130052AD62D6E00480411 /* Preview Content */,
 			);
@@ -139,6 +145,8 @@
 			files = (
 				EC6130022AD62D6C00480411 /* ContentView.swift in Sources */,
 				EC6130002AD62D6C00480411 /* iTourApp.swift in Sources */,
+				EC61300E2AD62DC000480411 /* Destination.swift in Sources */,
+				EC6130102AD644D300480411 /* EditDestinationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
